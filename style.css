@@ -1,0 +1,112 @@
+
+
+a{padding-left: 50px;}
+body::-webkit-scrollbar{
+    background-color: transparent;
+
+   
+}
+body::-webkit-scrollbar-thumb{background: linear-gradient(rgb(144, 247, 236),rgb(9, 163, 223),rgb(0, 132, 255))
+     ;
+     
+   }
+   body{
+    background: linear-gradient(pink,rgb(211, 97, 116),rgb(208, 63, 87));
+ height: 500%;
+ 
+
+  
+   }
+
+  
+  
+#rahul{
+  border-radius: 20px;
+        float: left;
+        padding: 5px;
+     
+}
+.kl{
+  content: ""
+  ;display: table;
+  clear: both;}
+  a{
+
+    text-decoration: none; 
+  }
+  span{ 
+    font-size: 100px;
+    font-weight: 900;
+    background-image: url(https://e0.pxfuel.com/wallpapers/471/133/desktop-wallpaper-pattern-orange-paisley-pattern-orange-texture.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip:text;
+    -webkit-background-clip:text;
+    color: transparent;
+    text-align:end;}
+ 
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0; 
+    margin: right 20px;;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0;
+}
+   /* h1{font-weight: 900;
+    position: relative;
+   }
+
+
+  h1:hover{
+    border-bottom: 2px solid black;
+
+  } */
+
+  h1 {
+    color: red;
+    display: inline-block; /* Ensures the border only spans the text width */
+    padding-bottom: 5px; /* Adjust the space between text and underline */
+
+  }
+  h1:hover{
+    border-bottom: 3px solid rgb(0, 0, 0); 
+  }
